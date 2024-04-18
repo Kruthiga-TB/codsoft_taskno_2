@@ -1,0 +1,136 @@
+*{
+  color: rgb(0, 0, 0);
+  font-family: Rubik;
+}
+
+body{
+  margin:0;
+  padding:0;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  align-items: center;
+  margin-bottom: 5px;
+  height: 40px;
+  position: fixed;
+  column-gap: 630px;
+  z-index: 100;
+  margin-left: 20px;  
+}
+
+a{
+  text-decoration: none;
+  padding:5px 10px 5px 10px;
+}
+
+
+.nav{
+  display: flex;
+  column-gap: 40px;
+  font-size: 15px;
+  font-weight: 500; 
+  justify-content: space-between;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.nav a:hover{
+  border-radius: 5px; 
+  background-color: rgb(215, 236, 253);
+}
+
+.nav a:active{
+  opacity:0.8;
+}
+
+.title{
+  font-weight: 700;
+  font-size: 30px;
+}
+
+/*BODY*/
+
+.main{
+  display: flex;
+  height:515px;
+  align-items: center;
+  margin: 0px 60px 0px;
+  column-gap: 110px;
+  padding-top: 40px;
+}
+
+.img{
+  height: 484px;
+  transition: 0.8s;
+}
+
+.img:hover{
+  height: 500px;
+}
+
+.para{
+  display: flex;
+  flex-direction: column;
+  width:550px;
+  row-gap: 25px;
+}
+
+.heading{
+  font-size: 60px;
+  font-weight: 700;
+}
+
+
+
+.art{
+  color: rgb(98, 216, 255);
+}
+
+.gallery{
+  color: lightpink;
+}
+
+.txt{
+  font-weight: 500;
+}
+
+.button{
+  display: flex;
+  column-gap: 15px;
+}
+
+.b{
+  border:none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.5s;
+  background-size: 200% auto;
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}
+
+.b:hover{
+  background-position: right center;
+}
+
+
+footer{
+  display: flex;
+  margin-left: 10px;
+}
+
+.con{
+  display: flex;
+  column-gap: 10px;
+}
+
+.icon{
+  height: 20px;
+  cursor: pointer;
+}
